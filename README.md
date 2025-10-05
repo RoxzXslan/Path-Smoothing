@@ -364,7 +364,8 @@ waypoints.sort(key=lambda p: p[0])  # Sort by X to ensure forward progress
 - ❌ Can generate difficult paths (sharp turns)
 
 **Plots:**
-![](Demo Video/Plot.png)
+![img](Demo Video/plot.png)
+
 
 ### 5. ROS2 Architecture Decisions
 
