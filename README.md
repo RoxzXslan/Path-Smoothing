@@ -399,9 +399,12 @@ publisher_after_controller = RegisterEventHandler(
 - Avoids "trajectory received before controller ready" issues
 
 **Plots:**
-<img src="Demo Video/plot.png" alt="plot-01" width="300">
 
-
+<p align="center">
+  <img src="Demo%20Video/plot.png" alt="plot-01" width="300">
+  &nbsp;&nbsp;&nbsp;
+  <img src="Demo%20Video/plot_1.png" alt="plot-02" width="300">
+</p>
 
 ---
 
