@@ -519,6 +519,10 @@ This project leveraged modern AI-assisted development tools throughout the devel
 ## 📁 Project Structure
 
 ```
+Demo Video/
+├── video.mp4                         # Demo video for walkthrough
+├── plot.png                          # Plot of randomly generated trajectory - case 1
+└── plot_1.png                        # Plot of randomly generated trajectory - case 2
 path_nav/
 ├── launch/
 │   └── total_path_nav.launch.py      # Main launch file, including gazebo and turtlebot3 config, rviz2, controller and publisher nodes.
@@ -526,6 +530,7 @@ path_nav/
 │   ├── smoothing.py                  # Cubic spline implementation
 │   ├── trajectory_generator.py       # Time-stamped trajectory generation
 │   ├── trajectory_publisher.py       # Random waypoint + trajectory publisher
+│   ├── traj_viz.py                   # For visualising the randomly generated trajectory and smoothness
 │   └── pure_pursuit_controller.py    # Pure Pursuit controller
 ├── rviz/
 │   └── path_nav.rviz                 # RViz configuration
