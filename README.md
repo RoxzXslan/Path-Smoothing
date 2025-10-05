@@ -363,6 +363,9 @@ waypoints.sort(key=lambda p: p[0])  # Sort by X to ensure forward progress
 - ❌ Less repeatable (use `random.seed()` for deterministic tests)
 - ❌ Can generate difficult paths (sharp turns)
 
+**Plots:**
+![](Demo Video/Plot.png)
+
 ### 5. ROS2 Architecture Decisions
 
 **Publisher/Subscriber Pattern:**
