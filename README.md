@@ -10,7 +10,7 @@ A ROS2 Humble implementation of path smoothing and trajectory tracking for diffe
 
 ## Demo Video
 
-[🎥 Watch the demo video](https://drive.google.com/file/d/your_file_id/view?usp=sharing)
+[🎥 Watch the demo video from Google Drive](https://drive.google.com/file/d/19375Y_TT4wKV-BXAa4_NbmN3G8rFN5Zl/view?usp=sharing)
 
 ---
 
