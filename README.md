@@ -529,12 +529,6 @@ README.md                             # This file
 
 ---
 
-## 📄 License
-
-This project is licensed under the Apache License 2.0 - see LICENSE file for details.
-
----
-
 ## 🙏 Acknowledgments
 
 - **TurtleBot3**: Robotis for the excellent robot platform
