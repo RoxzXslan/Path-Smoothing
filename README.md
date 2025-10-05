@@ -509,10 +509,9 @@ This project leveraged modern AI-assisted development tools throughout the devel
 ```
 path_nav/
 ├── launch/
-│   ├── launch_path_nav.launch.py    # Main launch file (sequenced startup)
-│   └── new_launch.launch.py          # Alternative launch configuration
+│   ├── basic_path_nav.launch.py      # Launches controller and publisher along with rviz
+│   └── total_path_nav.launch.py      # Main launch file, including gazebo and turtlebot3 config
 ├── path_nav/
-│   ├── __init__.py
 │   ├── smoothing.py                  # Cubic spline implementation
 │   ├── trajectory_generator.py       # Time-stamped trajectory generation
 │   ├── trajectory_publisher.py       # Random waypoint + trajectory publisher
@@ -521,13 +520,11 @@ path_nav/
 │   └── path_nav.rviz                 # RViz configuration
 ├── test/
 │   ├── test_smooth.py                # Smoothing algorithm tests (25 tests)
-│   └── test_trajectory_generator.py  # Trajectory generation tests (48 tests)
-├── resource/
-│   └── path_nav                      # Package marker
+│   └── test_trajectory.py            # Trajectory generation tests (48 tests)
 ├── package.xml                       # ROS2 package manifest
 ├── setup.py                          # Python package setup
 ├── setup.cfg                         # Setup configuration
-└── README.md                         # This file
+README.md                             # This file
 ```
 
 ---
