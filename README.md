@@ -8,6 +8,12 @@ A ROS2 Humble implementation of path smoothing and trajectory tracking for diffe
 
 ---
 
+## Demo Video
+
+[🎥 Watch the demo video](https://drive.google.com/file/d/your_file_id/view?usp=sharing)
+
+---
+
 ## 📑 Table of Contents
 - Overview
 - Features
@@ -401,9 +407,9 @@ publisher_after_controller = RegisterEventHandler(
 **Plots:**
 
 <p align="center">
-  <img src="Demo%20Video/plot.png" alt="plot-01" width="300">
+  <img src="res/plot.png" alt="plot-01" width="300">
   &nbsp;&nbsp;&nbsp;
-  <img src="Demo%20Video/plot_1.png" alt="plot-02" width="300">
+  <img src="res/plot_1.png" alt="plot-02" width="300">
 </p>
 
 ---
@@ -519,8 +525,7 @@ This project leveraged modern AI-assisted development tools throughout the devel
 ## 📁 Project Structure
 
 ```
-Demo Video/
-├── video.mp4                         # Demo video for walkthrough
+res/
 ├── plot.png                          # Plot of randomly generated trajectory - case 1
 └── plot_1.png                        # Plot of randomly generated trajectory - case 2
 path_nav/
