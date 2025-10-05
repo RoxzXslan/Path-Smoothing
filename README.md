@@ -398,6 +398,11 @@ publisher_after_controller = RegisterEventHandler(
 - Ensures proper initialization order
 - Avoids "trajectory received before controller ready" issues
 
+**Plots:**
+<img src="Demo Video/plot.png" alt="plot-01" width="300">
+
+
+
 ---
 
 ## 🧪 Testing
