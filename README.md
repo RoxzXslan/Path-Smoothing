@@ -68,39 +68,39 @@ Unlike typical implementations with hardcoded waypoints, this system generates *
 ┌────────────────────────────────────────────────────────────────┐
 │                        path_nav Package                        │
 ├────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐  │
-│  │         Trajectory Publisher Node                        │  │
-│  │  ┌─────────────────────────────────────────────────┐   │  │
-│  │  │ 1. Generate Random Waypoints (10 points)        │   │  │
-│  │  │ 2. Sort by X-coordinate                         │   │  │
-│  │  │ 3. Smooth using Cubic Splines (200 samples)    │   │  │
-│  │  │ 4. Add time stamps (constant velocity)         │   │  │
-│  │  └─────────────────────────────────────────────────┘   │  │
-│  └──────────────────────┬──────────────────────────────────┘  │
+│                                                                │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │         Trajectory Publisher Node                       │   │
+│  │  ┌─────────────────────────────────────────────────┐    │   │
+│  │  │ 1. Generate Random Waypoints (10 points)        │    │   │
+│  │  │ 2. Sort by X-coordinate                         │    │   │
+│  │  │ 3. Smooth using Cubic Splines (200 samples)     │    │   │
+│  │  │ 4. Add time stamps (constant velocity)          │    │   │
+│  │  └─────────────────────────────────────────────────┘    │   │
+│  └──────────────────────┬──────────────────────────────────┘   │
 │                         │                                      │
 │                         │ /trajectory (nav_msgs/Path)          │
 │                         ↓                                      │
-│  ┌─────────────────────────────────────────────────────────┐  │
-│  │         Pure Pursuit Controller Node                     │  │
-│  │  ┌─────────────────────────────────────────────────┐   │  │
-│  │  │ 1. Subscribe to trajectory                      │   │  │
-│  │  │ 2. Subscribe to robot odometry                  │   │  │
-│  │  │ 3. Find lookahead point                         │   │  │
-│  │  │ 4. Calculate curvature                          │   │  │
-│  │  │ 5. Compute velocity commands                    │   │  │
-│  │  └─────────────────────────────────────────────────┘   │  │
-│  └──────────────────────┬──────────────────────────────────┘  │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │         Pure Pursuit Controller Node                    │   │
+│  │  ┌─────────────────────────────────────────────────┐    │   │
+│  │  │ 1. Subscribe to trajectory                      │    │   │
+│  │  │ 2. Subscribe to robot odometry                  │    │   │
+│  │  │ 3. Find lookahead point                         │    │   │
+│  │  │ 4. Calculate curvature                          │    │   │
+│  │  │ 5. Compute velocity commands                    │    │   │
+│  │  └─────────────────────────────────────────────────┘    │   │
+│  └──────────────────────┬──────────────────────────────────┘   │
 │                         │                                      │
 │                         │ /cmd_vel (geometry_msgs/Twist)       │
 │                         ↓                                      │
-│  ┌─────────────────────────────────────────────────────────┐  │
-│  │         TurtleBot3 (Gazebo Simulation)                   │  │
-│  │  • Differential drive dynamics                          │  │
-│  │  • Odometry feedback (/odom)                            │  │
-│  │  • Velocity commands execution                          │  │
-│  └─────────────────────────────────────────────────────────┘  │
-│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │         TurtleBot3 (Gazebo Simulation)                  │   │
+│  │  • Differential drive dynamics                          │   │
+│  │  • Odometry feedback (/odom)                            │   │
+│  │  • Velocity commands execution                          │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                │
 └────────────────────────────────────────────────────────────────┘
 ```
 
