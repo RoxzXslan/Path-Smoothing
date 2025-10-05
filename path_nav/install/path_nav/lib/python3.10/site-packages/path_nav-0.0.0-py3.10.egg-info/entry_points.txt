@@ -1,3 +1,0 @@
-[console_scripts]
-pure_pursuit_controller = path_nav.pure_pursuit_controller:main
-trajectory_publisher = path_nav.trajectory_publisher:main
