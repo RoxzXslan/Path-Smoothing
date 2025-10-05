@@ -9,22 +9,19 @@ A ROS2 Humble implementation of path smoothing and trajectory tracking for diffe
 ---
 
 ## 📑 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Design Choices](#design-choices)
-- [Testing](#testing)
-- [Real Robot Deployment](#real-robot-deployment)
-- [Obstacle Avoidance Extension](#obstacle-avoidance-extension)
-- [AI Tools Used](#ai-tools-used)
-- [Project Structure](#project-structure)
-- [Demo Video](#demo-video)
+- [Overview]
+- [Features]
+- [System Architecture]
+- [Installation]
+- [Usage]
+- [Design Choices]
+- [Testing]
+- [AI Tools Used]
+- [Project Structure]
 
 ---
 
-## 🎯 Overview[](#overview)
+## 🎯 Overview
 
 This project addresses the challenge of smooth robot navigation through discrete waypoints. Given a set of 2D waypoints, the system:
 
