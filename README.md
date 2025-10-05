@@ -9,15 +9,15 @@ A ROS2 Humble implementation of path smoothing and trajectory tracking for diffe
 ---
 
 ## 📑 Table of Contents
-- [Overview]
-- [Features]
-- [System Architecture]
-- [Installation]
-- [Usage]
-- [Design Choices]
-- [Testing]
-- [AI Tools Used]
-- [Project Structure]
+- Overview
+- Features
+- System Architecture
+- Installation
+- Usage
+- Design Choices
+- Testing
+- AI Tools Used
+- Project Structure
 
 ---
 
@@ -66,7 +66,7 @@ Unlike typical implementations with hardcoded waypoints, this system generates *
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
-│                        path_nav Package                         │
+│                        path_nav Package                        │
 ├────────────────────────────────────────────────────────────────┤
 │                                                                 │
 │  ┌─────────────────────────────────────────────────────────┐  │
