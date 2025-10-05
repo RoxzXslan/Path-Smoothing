@@ -1,0 +1,27 @@
+running egg_info
+creating build/path_nav/path_nav.egg-info
+writing build/path_nav/path_nav.egg-info/PKG-INFO
+writing dependency_links to build/path_nav/path_nav.egg-info/dependency_links.txt
+writing entry points to build/path_nav/path_nav.egg-info/entry_points.txt
+writing requirements to build/path_nav/path_nav.egg-info/requires.txt
+writing top-level names to build/path_nav/path_nav.egg-info/top_level.txt
+writing manifest file 'build/path_nav/path_nav.egg-info/SOURCES.txt'
+reading manifest file 'build/path_nav/path_nav.egg-info/SOURCES.txt'
+writing manifest file 'build/path_nav/path_nav.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/share/ament_index/resource_index/packages
+copying resource/path_nav -> /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/share/path_nav
+creating /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/share/path_nav/launch
+copying launch/new_launch.launch.py -> /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/share/path_nav/launch
+copying launch/launch_path_nav.launch.py -> /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/share/path_nav/launch
+creating /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/share/path_nav/rviz
+copying rviz/path_nav.rviz -> /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/share/path_nav/rviz
+running install_egg_info
+Copying build/path_nav/path_nav.egg-info to /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/lib/python3.10/site-packages/path_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pure_pursuit_controller script to /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/lib/path_nav
+Installing trajectory_publisher script to /home/shamganesh/ros2_ws/src/path_nav/install/path_nav/lib/path_nav
+writing list of installed files to '/home/shamganesh/ros2_ws/src/path_nav/build/path_nav/install.log'
