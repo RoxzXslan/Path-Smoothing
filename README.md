@@ -521,8 +521,7 @@ This project leveraged modern AI-assisted development tools throughout the devel
 ```
 path_nav/
 ├── launch/
-│   ├── basic_path_nav.launch.py      # Launches controller and publisher along with rviz
-│   └── total_path_nav.launch.py      # Main launch file, including gazebo and turtlebot3 config
+│   └── total_path_nav.launch.py      # Main launch file, including gazebo and turtlebot3 config, rviz2, controller and publisher nodes.
 ├── path_nav/
 │   ├── smoothing.py                  # Cubic spline implementation
 │   ├── trajectory_generator.py       # Time-stamped trajectory generation
